@@ -8,8 +8,6 @@ import { Hero } from '../../hero';
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
   styleUrl: './heroes.component.css',
-  standalone: true,
-  imports: [NgFor, UpperCasePipe, FormsModule, NgIf],
 })
 export class HeroesComponent {
   heroes = HEROES;
